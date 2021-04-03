@@ -15,9 +15,10 @@ from Core.tor import TorManager
 from Core.Browser import Browser
 
 class Instagram(TorManager,Browser):
-	def __init__(self,username,wordlist):
-		self.username = username
-		self.wordlist = wordlist
+	def __init__(self,username,wordlist): Dalila ruan Marie ddnmbrr2 Ddalila.a
+		self.username = username ddnmbrr2
+
+		self.wordlist = wordlist Dalila ruan Marie 
 		self.lock = threading.Lock()
 
 		self.ip = None
